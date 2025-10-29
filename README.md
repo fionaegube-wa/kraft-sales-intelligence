@@ -1,7 +1,7 @@
-#  Kraft Sales Data Intelligence Analytics
+# Sales Data Intelligence Analytics
  Overview
 
-This project demonstrates how Kraft Heinz can enrich internal ERP sales data with external syndicated sources such as Circana and Nielsen, unify the schemas, apply business rules, and compute marketing and sales performance metrics at scale.
+This project demonstrates to enrich internal ERP sales data with external syndicated sources such as Circana and Nielsen, unify the schemas, apply business rules, and compute marketing and sales performance metrics at scale.
 
 The Python script ingests raw files from Google Cloud Storage (GCS) or local folders, standardizes the structure, joins product and customer master data, aligns retail to fiscal calendars, and produces partitioned Parquet outputs ready for ingestion into BigQuery or BI tools (Looker, Tableau, etc.).
 
